@@ -77,6 +77,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Veg-YO-QGP"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="BWS-3k-h00" id="1f8-xO-B8j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2H9-GR-FrX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

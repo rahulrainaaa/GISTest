@@ -82,12 +82,12 @@
 				69C7966120B4160100C08973 /* AppDelegate.swift */,
 				69C7966320B4160100C08973 /* ViewController.swift */,
 				69BE30DF20B5552D00CE1B92 /* RoutingViewController.swift */,
+				69EA953020B574960040F444 /* GeometryViewController.swift */,
 				69C7966520B4160100C08973 /* Main.storyboard */,
 				69C7966B20B4160200C08973 /* Assets.xcassets */,
 				69C7966D20B4160200C08973 /* LaunchScreen.storyboard */,
 				69C7967020B4160200C08973 /* Info.plist */,
 				69C7966820B4160100C08973 /* GISTest.xcdatamodeld */,
-				69EA953020B574960040F444 /* GeometryViewController.swift */,
 			);
 			path = GISTest;
 			sourceTree = "<group>";
