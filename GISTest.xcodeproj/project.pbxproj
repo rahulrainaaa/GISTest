@@ -15,6 +15,7 @@
 		69C7966C20B4160200C08973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C7966B20B4160200C08973 /* Assets.xcassets */; };
 		69C7966F20B4160200C08973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C7966D20B4160200C08973 /* LaunchScreen.storyboard */; };
 		69C7967720B41B2500C08973 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C7967620B41B2500C08973 /* CoreLocation.framework */; };
+		69EA953120B574960040F444 /* GeometryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EA953020B574960040F444 /* GeometryViewController.swift */; };
 		B062D6CC78B1DC1E6629B3C3 /* Pods_GISTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C564EEF721248C15816FD26A /* Pods_GISTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		69C7966E20B4160200C08973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69C7967020B4160200C08973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69C7967620B41B2500C08973 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		69EA953020B574960040F444 /* GeometryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryViewController.swift; sourceTree = "<group>"; };
 		C564EEF721248C15816FD26A /* Pods_GISTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GISTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				69C7966D20B4160200C08973 /* LaunchScreen.storyboard */,
 				69C7967020B4160200C08973 /* Info.plist */,
 				69C7966820B4160100C08973 /* GISTest.xcdatamodeld */,
+				69EA953020B574960040F444 /* GeometryViewController.swift */,
 			);
 			path = GISTest;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69C7966420B4160100C08973 /* ViewController.swift in Sources */,
+				69EA953120B574960040F444 /* GeometryViewController.swift in Sources */,
 				69C7966A20B4160100C08973 /* GISTest.xcdatamodeld in Sources */,
 				69BE30E020B5552D00CE1B92 /* RoutingViewController.swift in Sources */,
 				69C7966220B4160100C08973 /* AppDelegate.swift in Sources */,

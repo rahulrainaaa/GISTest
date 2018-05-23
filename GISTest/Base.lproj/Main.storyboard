@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -33,11 +34,18 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Lxf-Mq-ndC">
-                        <barButtonItem key="rightBarButtonItem" title="Route" id="aSc-7z-ICO">
-                            <connections>
-                                <segue destination="QZj-EU-Uc4" kind="show" id="mTs-fj-5WT"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Route" id="aSc-7z-ICO">
+                                <connections>
+                                    <segue destination="QZj-EU-Uc4" kind="show" id="mTs-fj-5WT"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Shape" id="WQX-PN-rTP">
+                                <connections>
+                                    <segue destination="5lN-Qw-tmg" kind="show" id="Qee-qA-AaD"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="D53-VO-7Ka" id="Zf9-2J-46Y"/>
@@ -46,6 +54,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="999.20000000000005" y="63.418290854572717"/>
+        </scene>
+        <!--Geometry View Controller-->
+        <scene sceneID="dBl-vw-3UO">
+            <objects>
+                <viewController id="5lN-Qw-tmg" customClass="GeometryViewController" customModule="GISTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Gv-Vh-FHx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BWS-3k-h00" customClass="AGSMapView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BWS-3k-h00" firstAttribute="leading" secondItem="Veg-YO-QGP" secondAttribute="leading" id="BWV-6a-dlk"/>
+                            <constraint firstItem="Veg-YO-QGP" firstAttribute="trailing" secondItem="BWS-3k-h00" secondAttribute="trailing" id="W1u-5x-thU"/>
+                            <constraint firstItem="Veg-YO-QGP" firstAttribute="bottom" secondItem="BWS-3k-h00" secondAttribute="bottom" id="fvf-Dj-Kbl"/>
+                            <constraint firstItem="BWS-3k-h00" firstAttribute="top" secondItem="Veg-YO-QGP" secondAttribute="top" id="pVr-Lb-ZSs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Veg-YO-QGP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2H9-GR-FrX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2148" y="-339.58020989505252"/>
         </scene>
         <!--Routing View Controller-->
         <scene sceneID="HtE-So-9Lz">
@@ -88,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UWI-mW-ALB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1880.8" y="62.518740629685162"/>
+            <point key="canvasLocation" x="2148" y="450"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mUV-m8-83B">
