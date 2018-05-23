@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69BE30E020B5552D00CE1B92 /* RoutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE30DF20B5552D00CE1B92 /* RoutingViewController.swift */; };
+		69C7966220B4160100C08973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C7966120B4160100C08973 /* AppDelegate.swift */; };
+		69C7966420B4160100C08973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C7966320B4160100C08973 /* ViewController.swift */; };
+		69C7966720B4160100C08973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C7966520B4160100C08973 /* Main.storyboard */; };
+		69C7966A20B4160100C08973 /* GISTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69C7966820B4160100C08973 /* GISTest.xcdatamodeld */; };
+		69C7966C20B4160200C08973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C7966B20B4160200C08973 /* Assets.xcassets */; };
+		69C7966F20B4160200C08973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C7966D20B4160200C08973 /* LaunchScreen.storyboard */; };
+		69C7967720B41B2500C08973 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C7967620B41B2500C08973 /* CoreLocation.framework */; };
+		B062D6CC78B1DC1E6629B3C3 /* Pods_GISTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C564EEF721248C15816FD26A /* Pods_GISTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112D698CEE4095D6D6E9AB79 /* Pods-GISTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GISTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GISTest/Pods-GISTest.debug.xcconfig"; sourceTree = "<group>"; };
+		667EC06EF37DB757F97333E8 /* Pods-GISTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GISTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GISTest/Pods-GISTest.release.xcconfig"; sourceTree = "<group>"; };
+		69BE30DF20B5552D00CE1B92 /* RoutingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingViewController.swift; sourceTree = "<group>"; };
+		69C7965E20B4160100C08973 /* GISTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GISTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C7966120B4160100C08973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69C7966320B4160100C08973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69C7966620B4160100C08973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69C7966920B4160100C08973 /* GISTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GISTest.xcdatamodel; sourceTree = "<group>"; };
+		69C7966B20B4160200C08973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69C7966E20B4160200C08973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69C7967020B4160200C08973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C7967620B41B2500C08973 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C564EEF721248C15816FD26A /* Pods_GISTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GISTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C7965B20B4160100C08973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C7967720B41B2500C08973 /* CoreLocation.framework in Frameworks */,
+				B062D6CC78B1DC1E6629B3C3 /* Pods_GISTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45FDFDB49AAC2546D39351EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C7967620B41B2500C08973 /* CoreLocation.framework */,
+				C564EEF721248C15816FD26A /* Pods_GISTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69C7965520B4160100C08973 = {
+			isa = PBXGroup;
+			children = (
+				69C7966020B4160100C08973 /* GISTest */,
+				69C7965F20B4160100C08973 /* Products */,
+				87EF7BC87BA4C9F1F6A14E5F /* Pods */,
+				45FDFDB49AAC2546D39351EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69C7965F20B4160100C08973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C7965E20B4160100C08973 /* GISTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C7966020B4160100C08973 /* GISTest */ = {
+			isa = PBXGroup;
+			children = (
+				69C7966120B4160100C08973 /* AppDelegate.swift */,
+				69C7966320B4160100C08973 /* ViewController.swift */,
+				69BE30DF20B5552D00CE1B92 /* RoutingViewController.swift */,
+				69C7966520B4160100C08973 /* Main.storyboard */,
+				69C7966B20B4160200C08973 /* Assets.xcassets */,
+				69C7966D20B4160200C08973 /* LaunchScreen.storyboard */,
+				69C7967020B4160200C08973 /* Info.plist */,
+				69C7966820B4160100C08973 /* GISTest.xcdatamodeld */,
+			);
+			path = GISTest;
+			sourceTree = "<group>";
+		};
+		87EF7BC87BA4C9F1F6A14E5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				112D698CEE4095D6D6E9AB79 /* Pods-GISTest.debug.xcconfig */,
+				667EC06EF37DB757F97333E8 /* Pods-GISTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69C7965D20B4160100C08973 /* GISTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C7967320B4160200C08973 /* Build configuration list for PBXNativeTarget "GISTest" */;
+			buildPhases = (
+				ED358A7E0BA1B4B756FD77AB /* [CP] Check Pods Manifest.lock */,
+				69C7965A20B4160100C08973 /* Sources */,
+				69C7965B20B4160100C08973 /* Frameworks */,
+				69C7965C20B4160100C08973 /* Resources */,
+				437F14197905BA94286A8FD0 /* [CP] Embed Pods Frameworks */,
+				58B5BC513DCDC1E0C81DC787 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GISTest;
+			productName = GISTest;
+			productReference = 69C7965E20B4160100C08973 /* GISTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C7965620B4160100C08973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Mobility;
+				TargetAttributes = {
+					69C7965D20B4160100C08973 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 69C7965920B4160100C08973 /* Build configuration list for PBXProject "GISTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69C7965520B4160100C08973;
+			productRefGroup = 69C7965F20B4160100C08973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C7965D20B4160100C08973 /* GISTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C7965C20B4160100C08973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C7966F20B4160200C08973 /* LaunchScreen.storyboard in Resources */,
+				69C7966C20B4160200C08973 /* Assets.xcassets in Resources */,
+				69C7966720B4160100C08973 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		437F14197905BA94286A8FD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GISTest/Pods-GISTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ArcGIS.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/ArcGIS.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GISTest/Pods-GISTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58B5BC513DCDC1E0C81DC787 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GISTest/Pods-GISTest-resources.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework/ArcGIS.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ArcGIS.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GISTest/Pods-GISTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED358A7E0BA1B4B756FD77AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GISTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C7965A20B4160100C08973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C7966420B4160100C08973 /* ViewController.swift in Sources */,
+				69C7966A20B4160100C08973 /* GISTest.xcdatamodeld in Sources */,
+				69BE30E020B5552D00CE1B92 /* RoutingViewController.swift in Sources */,
+				69C7966220B4160100C08973 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69C7966520B4160100C08973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C7966620B4160100C08973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69C7966D20B4160200C08973 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C7966E20B4160200C08973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69C7967120B4160200C08973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69C7967220B4160200C08973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69C7967420B4160200C08973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112D698CEE4095D6D6E9AB79 /* Pods-GISTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXK8SSTWS9;
+				INFOPLIST_FILE = GISTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.GISTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69C7967520B4160200C08973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667EC06EF37DB757F97333E8 /* Pods-GISTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXK8SSTWS9;
+				INFOPLIST_FILE = GISTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.GISTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C7965920B4160100C08973 /* Build configuration list for PBXProject "GISTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C7967120B4160200C08973 /* Debug */,
+				69C7967220B4160200C08973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C7967320B4160200C08973 /* Build configuration list for PBXNativeTarget "GISTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C7967420B4160200C08973 /* Debug */,
+				69C7967520B4160200C08973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69C7966820B4160100C08973 /* GISTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69C7966920B4160100C08973 /* GISTest.xcdatamodel */,
+			);
+			currentVersion = 69C7966920B4160100C08973 /* GISTest.xcdatamodel */;
+			path = GISTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69C7965620B4160100C08973 /* Project object */;
+}
